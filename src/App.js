@@ -1,16 +1,22 @@
 import React, { Component } from 'react';
-import { Navbar, NavbarBrand } from 'reactstrap';
+
+// import Data from './components/HomeComponent';
+import Header from './components/HeaderComponent';
+import Tagline from './components/TaglineComponent';
+import DevRow from './components/DevRowComponents';
+import OrgRow from './components/OrgRowComponent';
+import CollabRow from './components/CollabRowComponent';
 import './App.css';
 
 class App extends Component {
   render() {
     return (
       <div className="App">
-        <Navbar dark color="primary">
-          <div className="container">
-            <NavbarBrand href="/">Projhex</NavbarBrand>
-          </div>
-        </Navbar>
+        <Header />
+        <Tagline />
+        <DevRow />
+        <OrgRow />
+        <CollabRow />
       </div>
     );
   }
