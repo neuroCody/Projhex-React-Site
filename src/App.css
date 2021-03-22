@@ -4,13 +4,59 @@ body{
   font-family: 'Zilla Slab', serif;
 }
 
+.jumbotron {
+  margin: 0;
+  padding: 20px;
+  background: linear-gradient(rgba(36,22,99,1), rgb(36, 22, 99));
+  border:none;
+  color: #F7F7E8;
+}
+
 .navbar {
   background: linear-gradient(rgb(36, 22, 99), rgba(167, 38, 148, 0.993));
+}
+
+.nav-toggle {
+  font-size: 1.5rem;
+  color: var(--clr-primary-5);
+  background: transparent;
+  border-color: transparent;
+  transition: var(--transition);
+  cursor: pointer;
+}
+.nav-toggle:hover {
+  color: var(--clr-primary-1);
+  transform: rotate(90deg);
+}
+
+#tagline{
+  font-size: 50px;
+}
+
+#tagParagraph{
+  font-size: 25px;
 }
 
 .hexText{
   font-size: 75px;
 }
+
+h1 {
+  font-size: 4.5rem;
+  font-family: 'Exo 2', sans-serif;
+}
+
+h2{
+  margin-bottom: 90px;
+  font-family: 'Exo 2', sans-serif;
+}
+
+h3, h4, h6{
+  font-family: 'Exo 2', sans-serif;
+}
+
+
+
 
 #hexagon1 {
   width: 280px;
@@ -47,6 +93,45 @@ body{
   border-left: 100px solid transparent;
   border-right: 100px solid transparent;
   border-top: 57.753px solid #0ebebe;
+}
+
+#hexPara1 {
+  position:relative;
+  width:auto;
+  height:auto;
+  text-align: center;
+}
+#hexPara1:before, #hexPara1:after, #hexPara1>:first-child:before, #hexPara1>:first-child:after {
+    position:absolute;
+    width:20px; height: 20px;
+    border-color:#0ebebe; /* or whatever colour */
+    border-style:solid; /* or whatever style */
+    content: ' ';
+}
+#hexPara1:before {
+  top:0;
+  left:0;
+  border-width: 0px 0 0 0px;
+}
+#hexPara1:after {
+  top:0;
+  right:0;
+  border-width: 3px 2px 0 0;
+}
+#hexPara1>:first-child:before {
+  bottom:0;
+  right:0;
+  border-width: 0 0px 0px 0;
+}
+#hexPara1>:first-child:after {
+  bottom:0;
+  left:0;
+  border-width: 0 0 3px 2px;
+}
+
+.devPara{
+  margin: auto;
+  font-size: 22px;
 }
 
 #hexagon2 {
@@ -86,12 +171,43 @@ body{
   border-top: 57.753px solid #92d61c;
 }
 
-#devPara{
+.orgPara{
   margin: auto;
+  font-size: 22px;
 }
 
-#delPara{
-  margin: auto;
+#hexPara2 {
+  position:relative;
+  width:auto;
+  height:auto;
+  text-align: center;
+}
+#hexPara2:before, #hexPara2:after, #hexPara2>:first-child:before, #hexPara2>:first-child:after {
+    position:absolute;
+    width:20px; height: 20px;
+    border-color:#92d61c; /* or whatever colour */
+    border-style:solid; /* or whatever style */
+    content: ' ';
+}
+#hexPara2:before {
+  top:0;
+  left:0;
+  border-width: 3px 0 0 2px;
+}
+#hexPara2:after {
+  top:0;
+  right:0;
+  border-width: 0px 0px 0 0;
+}
+#hexPara2>:first-child:before {
+  bottom:0;
+  right:0;
+  border-width: 0 2px 3px 0;
+}
+#hexPara2>:first-child:after {
+  bottom:0;
+  left:0;
+  border-width: 0 0 0px 0px;
 }
 
 #hexagon3 {
@@ -130,3 +246,193 @@ body{
   border-top: 57.753px solid #f1d325;
 }
 
+#hexPara3 {
+  position:relative;
+  width:auto;
+  height:auto;
+  text-align: center;
+}
+#hexPara3:before, #hexPara3:after, #hexPara3>:first-child:before, #hexPara3>:first-child:after {
+    position:absolute;
+    width:20px; height: 20px;
+    border-color:#f1d325; /* or whatever colour */
+    border-style:solid; /* or whatever style */
+    content: ' ';
+}
+#hexPara3:before {
+  top:0;
+  left:0;
+  border-width: 0px 0 0 0px;
+}
+#hexPara3:after {
+  top:0;
+  right:0;
+  border-width: 3px 2px 0 0;
+}
+#hexPara3>:first-child:before {
+  bottom:0;
+  right:0;
+  border-width: 0 0px 0px 0;
+}
+#hexPara3>:first-child:after {
+  bottom:0;
+  left:0;
+  border-width: 0 0 3px 2px;
+}
+
+.collPara{
+  margin: auto;
+  font-size: 22px;
+}
+
+#hexagon4 {
+  width: 320px;
+  height: 115.506px;
+  background: white;
+  position: relative;
+  margin: auto;
+  display: flex;
+  float: right;
+  justify-content: center;
+  border-right: 4px solid #f8ab12 ;
+  border-top: 4px solid #f8ab12 ;
+  border-bottom: 4px solid #f8ab12 ;
+  border-radius: 5px;
+}
+#hexagon4::before {
+  content: "";
+  position: absolute;
+  top: -57.753px;
+  left: 120px;
+  width: 0;
+  height: 0;
+  border-left: 100px solid transparent;
+  border-right: 100px solid transparent;
+  border-bottom: 57.753px solid #f8ab12 ;
+}
+#hexagon4::after {
+  content: "";
+  position: absolute;
+  bottom: -57.753px;
+  left: 120px;
+  width: 0;
+  height: 0;
+  border-left: 100px solid transparent;
+  border-right: 100px solid transparent;
+  border-top: 57.753px solid #f8ab12 ;
+}
+
+#hexPara4 {
+  position:relative;
+  width:auto;
+  height:auto;
+  text-align: center;
+}
+#hexPara4:before, #hexPara4:after, #hexPara4>:first-child:before, #hexPara4>:first-child:after {
+    position:absolute;
+    width:20px; height: 20px;
+    border-color:#f8ab12; /* or whatever colour */
+    border-style:solid; /* or whatever style */
+    content: ' ';
+}
+#hexPara4:before {
+  top:0;
+  left:0;
+  border-width: 3px 0 0 2px;
+}
+#hexPara4:after {
+  top:0;
+  right:0;
+  border-width: 0px 0px 0 0;
+}
+#hexPara4>:first-child:before {
+  bottom:0;
+  right:0;
+  border-width: 0 2px 3px 0;
+}
+#hexPara4>:first-child:after {
+  bottom:0;
+  left:0;
+  border-width: 0 0 0px 0px;
+}
+
+.upPara{
+  margin:auto;
+  font-size: 22px;
+}
+
+#hexagon5 {
+  width: 280px;
+  height: 115.506px;
+  background: white;
+  position: relative;
+  margin: auto;
+  display: flex;
+  float: left;
+  justify-content: center;
+  border-left: 4px solid #f8184d;
+  border-top: 4px solid #f8184d;
+  border-bottom: 4px solid #f8184d;
+  border-radius: 5px;
+}
+#hexagon5::before {
+  content: "";
+  position: absolute;
+  top: -57.753px;
+  left: 0;
+  width: 0;
+  height: 0;
+  border-left: 100px solid transparent;
+  border-right: 100px solid transparent;
+  border-bottom: 57.753px solid #f8184d ;
+}
+#hexagon5::after {
+  content: "";
+  position: absolute;
+  bottom: -57.753px;
+  left: 0;
+  width: 0;
+  height: 0;
+  border-left: 100px solid transparent;
+  border-right: 100px solid transparent;
+  border-top: 57.753px solid #f8184d;
+}
+
+#hexPara5 {
+  position:relative;
+  width:auto;
+  height:auto;
+  text-align: center;
+}
+#hexPara5:before, #hexPara5:after, #hexPara5>:first-child:before, #hexPara5>:first-child:after {
+    position:absolute;
+    width:20px; height: 20px;
+    border-color:#f8184d; /* or whatever colour */
+    border-style:solid; /* or whatever style */
+    content: ' ';
+}
+#hexPara5:before {
+  top:0;
+  left:0;
+  border-width: 0px 0 0 0px;
+}
+#hexPara5:after {
+  top:0;
+  right:0;
+  border-width: 3px 2px 0 0;
+}
+#hexPara5>:first-child:before {
+  bottom:0;
+  right:0;
+  border-width: 0 0px 0px 0;
+}
+#hexPara5>:first-child:after {
+  bottom:0;
+  left:0;
+  border-width: 0 0 3px 2px;
+}
+
+.delPara{
+  margin: auto;
+  font-size: 22px;
+}

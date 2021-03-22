@@ -33,10 +33,10 @@ function DevRow() {
                     </span>
                 </div>
                 <img className="d-none d-md-block" src="/assets/images/idea-vector-background-xs.jpg" id="devPic" alt="Idea" />
-                <div className="col">
+                <div className="col mt-5">
                     <div className="media d-none d-md-block">
                         <div className="media-body align-self-center p-2"  id="hexPara1">
-                            <p className="d-none d-md-block" id="devPara">
+                            <p className="d-none d-md-block devPara" id="">
                             Providing a space for creativity to grow and mature. Giving you the tools to transform Ideas into reality.
                             </p>
                         </div> 
