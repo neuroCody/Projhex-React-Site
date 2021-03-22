@@ -27,7 +27,7 @@ function DevRow() {
     return(
         <div className="container mt-5 mb-5">
             <div className="row row-content">
-                <div className="col-6 col-lg-4">
+                <div className="col-6 col-lg-4 ml-4">
                     <span id="hexagon1">
                         <h4 className="hexText">Develop</h4>
                     </span>

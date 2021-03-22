@@ -4,7 +4,7 @@ function CollabRow() {
     return(
         <div className="container mt-5 mb-5">
             <div className="row row-content align-items-center">
-                <div className="col mt-5">
+                <div className="col mt-5 ml-4">
                     <span id="hexagon3">
                         <h4 className="hexText">Collaborate</h4>
                     </span>
