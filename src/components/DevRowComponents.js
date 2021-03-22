@@ -25,15 +25,15 @@ import React from 'react';
 
 function DevRow() {
     return(
-        <div className="container mt-5 mb-5">
+        <div className="container">
             <div className="row row-content">
-                <div className="col-6 col-lg-4 ml-4">
+                <div className="col-6 col-lg-4 ">
                     <span id="hexagon1">
                         <h4 className="hexText">Develop</h4>
                     </span>
                 </div>
                 <img className="d-none d-md-block mr-2" src="/assets/images/idea-vector-background-xs.jpg" id="devPic" alt="Idea" />
-                <div className="col mt-5">
+                <div className="col">
                     <div className="media d-none d-md-block">
                         <div className="media-body align-self-center p-2"  id="hexPara1">
                             <p className="d-none d-md-block devPara" id="">

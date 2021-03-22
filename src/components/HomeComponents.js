@@ -9,7 +9,7 @@ import DeliverRow from './DeliverRowComponent';
 class HomePage extends Component {
     render() {
         return(
-            <div>
+            <React.Fragment>
                 <Tagline />
                 <DevRow />
                 <OrgRow />
@@ -21,7 +21,7 @@ class HomePage extends Component {
                         <a href="/"><button class="btn btn-lg btn-secondary">See Available Features</button></a>
                     </div>
                 </div>
-            </div>
+            </React.Fragment>
         );
     }
 }

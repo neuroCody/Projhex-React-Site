@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Nav, Navbar, NavbarBrand, NavbarToggler, Collapse, NavItem, Jumbotron, Button, Modal, ModalHeader, ModalBody, Form, FormGroup , Input, Label } from 'reactstrap';
+import { Nav, Navbar, NavbarToggler, Collapse, NavItem, Jumbotron, Button, Modal, ModalHeader, ModalBody, Form, FormGroup , Input, Label } from 'reactstrap';
 import { NavLink } from 'react-router-dom';
 
 class Header extends Component {
@@ -29,7 +29,9 @@ class Header extends Component {
                     <div class="container">
                         <div class="row">
                             <div class="col-4 col-sm-3 col-md-2 align-self-center">
-                                <img src="/assets/images/Logo.svg" alt="Projhex Logo" />
+                                <a href="/home">
+                                    <img src="/assets/images/Logo.svg" alt="Projhex Logo" />
+                                </a>
                             </div>
                             <div class="col">
                                 <h1>Projhex</h1>

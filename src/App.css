@@ -55,6 +55,10 @@ h3, h4, h6{
   font-family: 'Exo 2', sans-serif;
 }
 
+.row-content {
+  padding: 80px 20px; 
+}
+
 .site-footer {
   background-image: linear-gradient(rgba(21,14,48,0.9300000071525574), rgba(21,14,48,0.8859677314758301));
   padding: 20px 0px;

@@ -2,9 +2,9 @@ import React, { Component } from 'react';
 
 // import Data from './components/HomeComponent';
 import Header from './components/HeaderComponent';
-import HomePage from './components/HomeComponents';
 import Footer from './components/FooterComponent';
-import {BrowserRouter} from 'react-router-dom';
+import Main from './components/MainComponents';
+import { BrowserRouter } from 'react-router-dom';
 import './App.css';
 
 class App extends Component {
@@ -12,9 +12,7 @@ class App extends Component {
     return (
       <BrowserRouter>
         <div className="App">
-          <Header />
-          <HomePage />
-          <Footer />
+          <Main />
         </div>
       </BrowserRouter>
     );
