@@ -9,7 +9,7 @@ function OrgRow() {
                         <h4 className="hexText ">Organize</h4>
                     </span>
                 </div>
-                <img className="d-none d-lg-block mt-5" src="/assets/images/puzzle-planet-xs.png" alt="planet" />
+                <img className="d-none d-lg-block mt-5 mr-3" src="/assets/images/puzzle-planet-xs.png" alt="planet" />
                 <div className="col mt-5">
                     <div className="media d-none d-md-block ">
                         <div className="media-body p-2" id="hexPara2">

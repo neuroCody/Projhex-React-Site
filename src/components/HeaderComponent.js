@@ -40,14 +40,30 @@ class Header extends Component {
                 </Jumbotron>
                 <Navbar dark sticky="top" expand="md">
                     <div class="container">
-                        <NavbarToggler />
+                        <NavbarToggler onClick={this.toggleNav}/>
                         <Collapse isOpen={this.state.isNavOpen} navbar>
                             <Nav navbar>
                                 
-                                <NavItem><NavLink className="nav-link" to="/home">Home</NavLink></NavItem>
-                                <NavItem><NavLink className="nav-link" to="/about">About</NavLink></NavItem>
-                                <NavItem><NavLink className="nav-link" to="/features">Features</NavLink></NavItem>
-                                <NavItem><NavLink className="nav-link" to="/contact">Contact</NavLink></NavItem>
+                                <NavItem>
+                                    <NavLink className="nav-link" to="/home">
+                                    Home
+                                    </NavLink>
+                                </NavItem>
+                                <NavItem>
+                                    <NavLink className="nav-link" to="/about">
+                                    About
+                                    </NavLink>
+                                </NavItem>
+                                <NavItem>
+                                    <NavLink className="nav-link" to="/features">
+                                    Features
+                                    </NavLink>
+                                </NavItem>
+                                <NavItem>
+                                    <NavLink className="nav-link" to="/contact">
+                                    Contact
+                                    </NavLink>
+                                </NavItem>
                             </Nav> 
                         </Collapse>
                         

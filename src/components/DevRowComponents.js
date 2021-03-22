@@ -32,7 +32,7 @@ function DevRow() {
                         <h4 className="hexText">Develop</h4>
                     </span>
                 </div>
-                <img className="d-none d-md-block" src="/assets/images/idea-vector-background-xs.jpg" id="devPic" alt="Idea" />
+                <img className="d-none d-md-block mr-2" src="/assets/images/idea-vector-background-xs.jpg" id="devPic" alt="Idea" />
                 <div className="col mt-5">
                     <div className="media d-none d-md-block">
                         <div className="media-body align-self-center p-2"  id="hexPara1">

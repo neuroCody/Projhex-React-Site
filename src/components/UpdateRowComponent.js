@@ -9,7 +9,7 @@ function UpdateRow() {
                         <h4 className="hexText">Update</h4>
                     </span>
                 </div>
-                <img className="d-none d-lg-block mt-5" src="/assets/images/Update-img-xxs.jpg" alt="Update Symbol"/>
+                <img className="d-none d-lg-block mt-5 mb-5 mr-5" src="/assets/images/Update-img-xxs.jpg" alt="Update Symbol"/>
                 <div className="col">
                     <div className="media d-none d-md-block">
                         <div className="media-body align-self-center p-2 mt-5" id="hexPara4">
