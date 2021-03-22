@@ -26,14 +26,14 @@ class Header extends Component {
         return(
             <React.Fragment>
                 <Jumbotron fluid className="mb-0">
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-4 col-sm-3 col-md-2 align-self-center">
+                    <div className="container">
+                        <div className="row">
+                            <div className="col-4 col-sm-3 col-md-2 align-self-center">
                                 <a href="/home">
                                     <img src="/assets/images/Logo.svg" alt="Projhex Logo" />
                                 </a>
                             </div>
-                            <div class="col">
+                            <div className="col">
                                 <h1>Projhex</h1>
                                 <h6>Web Based Project Tracking</h6>
                             </div>
@@ -41,7 +41,7 @@ class Header extends Component {
                     </div>
                 </Jumbotron>
                 <Navbar dark sticky="top" expand="md">
-                    <div class="container">
+                    <div className="container">
                         <NavbarToggler onClick={this.toggleNav}/>
                         <Collapse isOpen={this.state.isNavOpen} navbar>
                             <Nav navbar>

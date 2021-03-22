@@ -1,8 +1,4 @@
 import React, { Component } from 'react';
-
-// import Data from './components/HomeComponent';
-import Header from './components/HeaderComponent';
-import Footer from './components/FooterComponent';
 import Main from './components/MainComponents';
 import { BrowserRouter } from 'react-router-dom';
 import './App.css';

@@ -3,6 +3,7 @@ import Header from './HeaderComponent';
 import Footer from './FooterComponent';
 import Home from './HomeComponents';
 import About from './AboutComponent';
+import Contact from './ContactComponent';
 import { Switch, Route, Redirect } from 'react-router-dom';
 
 
@@ -22,6 +23,12 @@ class Main extends Component {
             );
         }
 
+        const ContactUs = () => {
+            return(
+                <Contact />
+            );
+        }
+
 
         return(
             <div>
@@ -29,6 +36,7 @@ class Main extends Component {
                 <Switch>
                     <Route path='/home' component={HomePage} />
                     <Route exact path='/about' component={AboutUs} />
+                    <Route path='/contact' component={ContactUs} />
                     <Redirect to='/home' />
                 </Switch>
                 <Footer />
