@@ -3,6 +3,7 @@ import Header from './HeaderComponent';
 import Footer from './FooterComponent';
 import Home from './HomeComponents';
 import About from './AboutComponent';
+import Features from './FeaturesComponent';
 import Contact from './ContactComponent';
 import { Switch, Route, Redirect } from 'react-router-dom';
 
@@ -23,6 +24,12 @@ class Main extends Component {
             );
         }
 
+        const FeaturePage = () => {
+            return(
+                <Features />
+            );
+        }
+
         const ContactUs = () => {
             return(
                 <Contact />
@@ -36,6 +43,7 @@ class Main extends Component {
                 <Switch>
                     <Route path='/home' component={HomePage} />
                     <Route exact path='/about' component={AboutUs} />
+                    <Route exact path='/features' component={FeaturePage} />
                     <Route path='/contact' component={ContactUs} />
                     <Redirect to='/home' />
                 </Switch>

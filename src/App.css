@@ -447,3 +447,66 @@ h3, h4, h6{
   margin: auto;
   font-size: 21px;
 }
+
+.carousel-caption {
+  background-color: rgba(36, 22, 99, 0.685);
+  max-height: 150px;
+}
+
+.carousel {
+  border: 2px solid rgb(36, 22, 99);
+}
+
+#chatHeader {
+  background-image: linear-gradient(rgb(36, 22, 99), rgba(167, 38, 148, 0.993));;
+}
+
+.card {
+  padding: 1px;
+}
+
+#card1 {
+  border: 1px solid #92d61c;
+  border-radius: 7px;
+  height: auto;
+}
+
+#card2 {
+  border: 1px solid #0ebebe;
+  border-radius: 7px;
+  height: auto;
+}
+
+#card3 {
+  border: 1px solid #f8ab12;
+  border-radius: 7px;
+  height: auto;
+}
+
+#card4{
+  border: 1px solid #f8184d;
+  border-radius: 7px;
+  height: auto;
+}
+
+.card-title{
+  font-size: 20px;
+  margin: 0px 0px;
+  font-family: 'Exo 2', sans-serif;
+}
+
+.card-text {
+  font-size: 12px;
+  margin: 0px 1px;
+  
+}
+
+.card-button{
+  height: 15px;
+  font-size: 10px;
+}
+
+.carousel-control-next,
+.carousel-control-prev /*, .carousel-indicators */ {
+    filter: invert(100%);
+}
