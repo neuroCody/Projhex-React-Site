@@ -26,7 +26,7 @@ class Header extends Component {
         return(
             <React.Fragment>
                 <Jumbotron fluid className="mb-0">
-                    <div className="container">
+                    <div className="container header">
                         <div className="row">
                             <div className="col-4 col-sm-3 col-md-2 align-self-center">
                                 <a href="/home">

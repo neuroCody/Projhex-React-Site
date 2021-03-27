@@ -12,6 +12,10 @@ body{
   color: #F7F7E8;
 }
 
+.header {
+  width: 100vw;
+}
+
 .navbar {
   background: linear-gradient(rgb(36, 22, 99), rgba(167, 38, 148, 0.993));
 }

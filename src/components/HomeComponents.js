@@ -18,7 +18,7 @@ class HomePage extends Component {
                 <DeliverRow />
                 <div class="row row-content">
                     <div class="col d-flex justify-content-center mt-5 mb-5">
-                        <a href="/"><button class="btn btn-lg btn-secondary">See Available Features</button></a>
+                        <a href="/features"><button class="btn btn-lg btn-secondary">See Available Features</button></a>
                     </div>
                 </div>
             </React.Fragment>
