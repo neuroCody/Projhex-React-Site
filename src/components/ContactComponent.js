@@ -12,7 +12,7 @@ class Contact extends Component {
 
     render() {
         return(
-            <div>
+            <div className="container">
                 <div className="row row-content justify-content-center">
                 <div className="col-12 text-center">
                     <h1>Let us know what you think!</h1>
