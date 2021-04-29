@@ -32,7 +32,7 @@ useEffect(() => {
                             <p className="featParagraph">Use our project creator to set up necessary steps and track them through to completion. Assign specific team members to each task for organized workflow.</p>
                         </div>
                         <div className="col col-md-6 d-none d-sm-block">
-                            <img className="img-fluid" src="/assets/images/TaskWindow.png" alt="" />
+                            <img className="img-fluid" src="/assets/images/TaskWindow.png" alt="Task Wondow" />
                         </div>
                     </div>
                     <hr />
@@ -57,7 +57,7 @@ useEffect(() => {
                             <div className="card bg-light" id="card1">
                                 <div className="row g-0">
                                     <div className="col-md-2 mt-2">
-                                        <img src="/assets/images/david-hex.svg" className="ml-3 mt-2"></img>
+                                        <img src="/assets/images/david-hex.svg" className="ml-3 mt-2" alt="user 1"></img>
                                     </div>
                                     <div className="col col-md-10">
                                         <div className="card-body">
@@ -71,7 +71,7 @@ useEffect(() => {
                             <div className="card bg-light" id="card2">
                                 <div className="row g-0">
                                     <div className="col-md-2 mt-2">
-                                        <img src="/assets/images/Reelle-hex.svg" className="ml-3 mt-2"></img>
+                                        <img src="/assets/images/Reelle-hex.svg" className="ml-3 mt-2" alt="user 2"></img>
                                     </div>
                                     <div className="col col-md-10">
                                         <div className="card-body">
@@ -85,7 +85,7 @@ useEffect(() => {
                             <div className="card bg-light" id="card3">
                                 <div className="row g-0">
                                     <div className="col-md-2 mt-2">
-                                        <img src="/assets/images/Vincent-hex.svg" className="ml-3 mt-2"></img>
+                                        <img src="/assets/images/Vincent-hex.svg" className="ml-3 mt-2" alt="user 3"></img>
                                     </div>
                                     <div className="col col-md-10">
                                         <div className="card-body">
@@ -99,7 +99,7 @@ useEffect(() => {
                             <div className="card bg-light" id="card4">
                                 <div className="row g-0">
                                     <div className="col-md-2 mt-2">
-                                        <img src="/assets/images/tobi-hex.svg" className="ml-3 mt-2"></img>
+                                        <img src="/assets/images/tobi-hex.svg" className="ml-3 mt-2" alt="user 4"></img>
                                     </div>
                                     <div className="col col-md-10">
                                         <div className="card-body">
@@ -121,7 +121,7 @@ useEffect(() => {
                             <p className="featParagraph">The Gantt Chart inspired timeline helps keep progress and upcoming deadlines in picture perfect view.</p>
                         </div>
                         <div className="col col-md-6 d-none d-sm-block">
-                            <img className="img-fluid" src="/assets/images/Timeline.png" alt="" />
+                            <img className="img-fluid" src="/assets/images/Timeline.png" alt="Timeline" />
                         </div>
                     </div>
                 </div>

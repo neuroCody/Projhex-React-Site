@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Container } from 'reactstrap'
 import Tagline from './TaglineComponent';
 import DevRow from './DevRowComponents';
 import OrgRow from './OrgRowComponent';
@@ -9,19 +10,19 @@ import DeliverRow from './DeliverRowComponent';
 class HomePage extends Component {
     render() {
         return(
-            <div className='container'>
+            <Container fluid>
                 <Tagline />
                 <DevRow />
                 <OrgRow />
                 <CollabRow />
                 <UpdateRow />
                 <DeliverRow />
-                <div class="row row-content">
-                    <div class="col d-flex justify-content-center mt-5 mb-5">
-                        <a href="/features"><button class="btn btn-lg btn-secondary">See Available Features</button></a>
+                <div className="row row-content">
+                    <div className="col d-flex justify-content-center mt-5 mb-5">
+                        <a href="/features"><button className="btn btn-lg btn-secondary">See Available Features</button></a>
                     </div>
                 </div>
-            </div>
+            </Container>
         );
     }
 }

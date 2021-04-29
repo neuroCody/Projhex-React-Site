@@ -2,7 +2,7 @@ import React from 'react'
 
 function OrgRow() {
     return(
-        <div className="container">
+        <div className="container mt-5">
             <div className="row row-content align-items-center">
                 <div className="col order-last col-md-6 col-lg-5 col-xl-4">
                     <span id="hexagon2">

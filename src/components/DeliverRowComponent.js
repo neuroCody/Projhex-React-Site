@@ -2,7 +2,7 @@ import React from 'react';
 
 function DeliverRow() {
     return(
-        <div className="container">
+        <div className="container mt-5">
             <div className="row row-content align-items-center">
                 <div className="col-6 col-lg-4 pb-5">
                     <span id="hexagon5">

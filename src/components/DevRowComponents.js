@@ -25,7 +25,7 @@ import React from 'react';
 
 function DevRow() {
     return(
-        <div className="container">
+        <div className="container mt-5">
             <div className="row row-content">
                 <div className="col-6 col-lg-4 ">
                     <span id="hexagon1">

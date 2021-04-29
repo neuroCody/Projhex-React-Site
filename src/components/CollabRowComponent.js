@@ -2,11 +2,11 @@ import React from 'react';
 
 function CollabRow() {
     return(
-        <div className="container">
+        <div className="container mt-5">
             <div className="row row-content align-items-center">
                 <div className="col">
                     <span id="hexagon3">
-                        <h4 className="hexText">Collaborate</h4>
+                        <h6 className="hexText2">Collaborate</h6>
                     </span>
                 </div>
                 <div className="col">
